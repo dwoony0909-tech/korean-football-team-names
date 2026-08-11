@@ -1,6 +1,6 @@
 {
   "name": "korean-football-team-names",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "English-to-Korean name mapping for 264 European club football teams, keyed on football-data.org API names. Public domain (CC0).",
   "keywords": [
     "football",
