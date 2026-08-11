@@ -1,5 +1,7 @@
 # korean-football-team-names
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21884267.svg)](https://doi.org/10.5281/zenodo.21884267)
+
 **English → Korean club name mapping for European football.** 264 clubs across the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 (including second divisions) and UEFA Champions League opponents. Keyed on the names returned by the [football-data.org](https://www.football-data.org/) API. Public domain (CC0).
 
 ```bash
