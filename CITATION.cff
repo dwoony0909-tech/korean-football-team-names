@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Korean Football Team Names: an English-to-Korean mapping for European club football"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - given-names: Dany
+    family-names: Kim
+    affiliation: "Walking Football"
+    website: "https://walking-football.com/"
+abstract: >-
+  An open mapping of English club names returned by the football-data.org API to
+  the Korean names used by Korean broadcasters and sports media. Covers 264 clubs
+  across the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and their
+  respective second divisions, plus clubs encountered in the UEFA Champions League.
+  Second-division clubs are included because promoted sides otherwise break any
+  first-division-only mapping every August. Common API name variants are included
+  as separate keys so that lookups succeed without normalisation.
+keywords:
+  - football
+  - soccer
+  - Korean
+  - transliteration
+  - localization
+  - open data
+  - Premier League
+  - La Liga
+  - Serie A
+  - Bundesliga
+  - Ligue 1
+  - UEFA Champions League
+license: CC0-1.0
+repository-code: "https://github.com/dwoony0909-tech/korean-football-team-names"
+url: "https://walking-football.com/"
+version: 2.0.0
+date-released: 2026-08-11

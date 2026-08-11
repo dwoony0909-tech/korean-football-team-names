@@ -1,0 +1,37 @@
+{
+  "title": "Korean Football Team Names: an English-to-Korean mapping for European club football",
+  "description": "<p>An open mapping of English club names returned by the <a href=\"https://www.football-data.org/\">football-data.org</a> API to the Korean names used by Korean broadcasters and sports media.</p><p>Covers <strong>264 clubs</strong> across the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and their respective second divisions, plus clubs encountered in the UEFA Champions League. Second-division clubs are included because promoted sides otherwise break any first-division-only mapping every August. Common API name variants (for example <em>Inter</em> and <em>FC Internazionale Milano</em>) are stored as separate keys so lookups succeed without normalisation.</p><p>Distributed as JSON and CSV. Maintained by <a href=\"https://walking-football.com/\">Walking Football</a>, a Korean-language site covering European club football.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-zero",
+  "language": "kor",
+  "version": "2.0.0",
+  "creators": [
+    {
+      "name": "Kim, Dany",
+      "affiliation": "Walking Football"
+    }
+  ],
+  "keywords": [
+    "football",
+    "soccer",
+    "Korean language",
+    "transliteration",
+    "localization",
+    "sports data",
+    "open data",
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1",
+    "UEFA Champions League"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://walking-football.com/",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ]
+}

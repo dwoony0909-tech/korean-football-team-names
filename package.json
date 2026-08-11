@@ -1,0 +1,60 @@
+{
+  "name": "korean-football-team-names",
+  "version": "2.0.0",
+  "description": "English-to-Korean name mapping for 264 European club football teams, keyed on football-data.org API names. Public domain (CC0).",
+  "keywords": [
+    "football",
+    "soccer",
+    "korean",
+    "korea",
+    "i18n",
+    "l10n",
+    "localization",
+    "transliteration",
+    "team-names",
+    "premier-league",
+    "la-liga",
+    "serie-a",
+    "bundesliga",
+    "ligue-1",
+    "champions-league",
+    "football-data",
+    "sports",
+    "dataset"
+  ],
+  "homepage": "https://walking-football.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwoony0909-tech/korean-football-team-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwoony0909-tech/korean-football-team-names/issues"
+  },
+  "license": "CC0-1.0",
+  "author": "Dany Kim (https://walking-football.com/)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./teams.json": "./teams.json",
+    "./teams.csv": "./teams.csv"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "teams.json",
+    "teams.csv",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,72 @@
+{
+  "profile": "data-package",
+  "name": "korean-football-team-names",
+  "title": "Korean Football Team Names",
+  "description": "English-to-Korean name mapping for 264 European club football teams, keyed on the names returned by the football-data.org API.",
+  "version": "2.0.0",
+  "homepage": "https://walking-football.com/",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Dany Kim",
+      "role": "author",
+      "organization": "Walking Football",
+      "path": "https://walking-football.com/"
+    }
+  ],
+  "keywords": ["football", "soccer", "korean", "transliteration", "localization", "sports"],
+  "resources": [
+    {
+      "name": "teams",
+      "path": "teams.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "name_en",
+            "type": "string",
+            "title": "English name",
+            "description": "Club name exactly as returned by the football-data.org API. Serves as the primary key."
+          },
+          {
+            "name": "name_ko",
+            "type": "string",
+            "title": "Korean name",
+            "description": "Korean rendering as used by Korean broadcasters and sports media."
+          },
+          {
+            "name": "league",
+            "type": "string",
+            "title": "League slug",
+            "constraints": {
+              "enum": ["premier-league", "la-liga", "serie-a", "bundesliga", "ligue-1", "other"]
+            }
+          },
+          {
+            "name": "league_en",
+            "type": "string",
+            "title": "League label"
+          }
+        ],
+        "primaryKey": "name_en"
+      }
+    },
+    {
+      "name": "teams-json",
+      "path": "teams.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "description": "Same data as an object keyed on the English name, with a count and metadata header."
+    }
+  ]
+}
