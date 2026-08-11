@@ -1,0 +1,74 @@
+name: Monthly data snapshot
+
+on:
+  schedule:
+    - cron: '20 21 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+
+      - name: Fetch kickoff dataset
+        run: |
+          mkdir -p data
+          curl -sSfL --retry 4 --retry-delay 10 --max-time 60 \
+            -H 'Accept: application/json' \
+            'https://walking-football.com/?wfsk_data=kickoff' \
+            -o data/kickoff-latest.json
+          node scripts/kickoff-csv.js
+
+      - name: Stop if nothing changed
+        id: diff
+        run: |
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "데이터에 변화가 없어 이번 달은 건너뜁니다."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bump version and commit
+        if: steps.diff.outputs.changed == 'true'
+        id: bump
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          npm version patch --no-git-tag-version
+          VERSION=$(node -p "require('./package.json').version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          git add -A
+          git commit -m "Monthly kickoff snapshot (v$VERSION)"
+          git push
+
+      - name: Run tests
+        if: steps.diff.outputs.changed == 'true'
+        run: node test.js
+
+      - name: Create release
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ steps.bump.outputs.version }}
+        run: |
+          gh release create "v$VERSION" \
+            --title "v$VERSION — monthly kickoff snapshot" \
+            --notes "Automated monthly snapshot of European football kickoff times in Korea Standard Time, plus the Korean club name mapping. Source: https://walking-football.com/kickoff-hours/ — CC0 1.0 / CC BY 4.0."
+
+      - name: Publish to npm
+        if: steps.diff.outputs.changed == 'true'
+        run: npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
