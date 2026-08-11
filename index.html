@@ -4,8 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>축구팀 한글 이름 대조표 264개 — korean-football-team-names</title>
-<meta name="description" content="유럽 5대 리그와 챔피언스리그 축구팀의 영문명을 한국어로 바꾸는 무료 대조표. 264개 팀, CC0 라이선스, JSON 제공.">
-<link rel="canonical" href="https://walking-football.com/">
+<meta name="description" content="유럽 5대 리그와 UEFA 챔피언스리그 축구팀의 영문명을 한국어로 바꾸는 무료 대조표. 264개 팀, CC0 라이선스, JSON 내려받기 제공.">
+<link rel="canonical" href="https://dwoony0909-tech.github.io/korean-football-team-names/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="축구팀 한글 이름 대조표 264개">
+<meta property="og:description" content="유럽 5대 리그·챔피언스리그 축구팀 영문명 → 한국어명. CC0, JSON 제공.">
+<meta property="og:url" content="https://dwoony0909-tech.github.io/korean-football-team-names/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2300577C'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='%23fff'>⚽</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "korean-football-team-names",
+  "alternateName": "축구팀 한글 이름 대조표",
+  "description": "유럽 5대 리그(프리미어리그·라리가·세리에A·분데스리가·리그앙)와 UEFA 챔피언스리그 축구 클럽 264개의 영문명-한국어명 대조표. football-data.org API가 반환하는 팀 이름을 키로 사용하며, 2부 리그 승격 후보 팀과 별칭 표기를 포함한다.",
+  "url": "https://dwoony0909-tech.github.io/korean-football-team-names/",
+  "keywords": ["football", "soccer", "korean", "i18n", "team names", "축구", "한국어"],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "inLanguage": ["ko", "en"],
+  "creator": {
+    "@type": "Organization",
+    "name": "Walking Football",
+    "url": "https://walking-football.com/"
+  },
+  "distribution": [{
+    "@type": "DataDownload",
+    "encodingFormat": "application/json",
+    "contentUrl": "https://dwoony0909-tech.github.io/korean-football-team-names/teams.json"
+  }],
+  "codeRepository": "https://github.com/dwoony0909-tech/korean-football-team-names"
+}
+</script>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
@@ -17,55 +48,82 @@ h1{font-size:clamp(24px,4vw,34px);margin:0 0 8px;letter-spacing:-.02em}
 .bar a{font-size:14px;font-weight:700;text-decoration:none;padding:9px 15px;border-radius:999px;
  background:#00577C;color:#fff}
 .bar a.alt{background:#fff;color:#00577C;border:1px solid #CBE4F0}
+.bar a:hover{opacity:.88}
 input{width:100%;padding:13px 16px;font-size:16px;border:1px solid #D9E6EE;border-radius:10px;font-family:inherit}
 input:focus{outline:2px solid #00577C;outline-offset:1px}
-table{width:100%;border-collapse:collapse;margin-top:18px;background:#fff;border-radius:12px;overflow:hidden}
-th{background:#00577C;color:#fff;text-align:left;padding:11px 14px;font-size:13.5px;position:sticky;top:0}
+.tw{margin-top:18px;background:#fff;border:1px solid #E3EDF3;border-radius:12px;overflow:auto;max-height:70vh}
+table{width:100%;border-collapse:collapse}
+th{background:#00577C;color:#fff;text-align:left;padding:11px 14px;font-size:13.5px;position:sticky;top:0;z-index:1}
 td{padding:10px 14px;border-bottom:1px solid #EEF3F6;font-size:14.5px}
+tr:last-child td{border-bottom:0}
 tr:hover td{background:#F7FBFD}
-.lg{font-size:11px;font-weight:800;color:#fff;padding:3px 8px;border-radius:5px;white-space:nowrap}
+.lg{display:inline-block;font-size:11px;font-weight:800;color:#fff;padding:3px 8px;border-radius:5px;white-space:nowrap}
 .ko{font-weight:700}
 .n{color:#6A7E8B;font-size:13.5px;margin:14px 0 0}
 footer{margin-top:34px;padding-top:20px;border-top:1px solid #E3EDF3;font-size:13.5px;color:#6A7E8B}
 a{color:#00577C}
+@media(max-width:520px){td,th{padding:9px 10px;font-size:13.5px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>축구팀 한글 이름 대조표</h1>
-<p class="sub">유럽 5대 리그 · UEFA 챔피언스리그 <b id="cnt">264</b>개 팀. football-data.org API의 영문 팀명을 한국어로 바꿉니다. CC0 — 자유롭게 쓰세요.</p>
+<p class="sub">유럽 5대 리그 · UEFA 챔피언스리그 <b id="cnt">264</b>개 팀. football-data.org API의 영문 팀명을 한국어로 바꿉니다. CC0 — 출처 표시 없이 자유롭게 쓰세요.</p>
 <div class="bar">
   <a href="teams.json" download>teams.json 내려받기</a>
-  <a class="alt" href="https://github.com/">GitHub 저장소</a>
-  <a class="alt" href="https://walking-football.com/">Walking Football</a>
+  <a class="alt" href="https://github.com/dwoony0909-tech/korean-football-team-names">GitHub 저장소</a>
+  <a class="alt" href="https://walking-football.com/">세계 축구 리그 가이드 — Walking Football</a>
 </div>
-<input id="q" type="search" placeholder="팀 이름으로 검색 (영문·한글 모두 가능)" aria-label="팀 검색">
-<table><thead><tr><th>영문명</th><th>한국어</th><th>리그</th></tr></thead><tbody id="tb"></tbody></table>
-<p class="n" id="hit"></p>
+<label class="n" for="q" style="display:block;margin:0 0 8px">팀 검색</label>
+<input id="q" type="search" placeholder="영문·한글 모두 검색됩니다 (예: bayern, 뮌헨)">
+<div class="tw">
+<table>
+  <caption class="n" style="text-align:left;padding:10px 14px 0">영문명 → 한국어명 대조표</caption>
+  <thead><tr><th scope="col">영문명</th><th scope="col">한국어</th><th scope="col">리그</th></tr></thead>
+  <tbody id="tb"></tbody>
+</table>
+</div>
+<p class="n" id="hit">불러오는 중…</p>
 <footer>
-  데이터: <a href="teams.json">teams.json</a> · 라이선스 CC0 1.0 ·
+  데이터: <a href="teams.json">teams.json</a> · 라이선스 <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ko">CC0 1.0</a> ·
   만든 곳 <a href="https://walking-football.com/">Walking Football</a>
 </footer>
 </div>
 <script>
 var COLOR={'premier-league':'#3D195B','la-liga':'#E4610F','serie-a':'#0B63A8','bundesliga':'#D20515','ligue-1':'#14285A','other':'#00577C'};
 var NAME={'premier-league':'프리미어리그','la-liga':'라리가','serie-a':'세리에A','bundesliga':'분데스리가','ligue-1':'리그앙','other':'기타'};
-var rows=[];
-fetch('teams.json').then(function(r){return r.json()}).then(function(d){
+var rows=[], tb=document.getElementById('tb'), hit=document.getElementById('hit');
+
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+
+fetch('teams.json').then(function(r){
+  if(!r.ok){throw new Error('HTTP '+r.status);}
+  return r.json();
+}).then(function(d){
   document.getElementById('cnt').textContent=d.count;
-  rows=Object.keys(d.teams).map(function(en){return {en:en,ko:d.teams[en].ko,lg:d.teams[en].league}});
+  rows=Object.keys(d.teams).map(function(en){
+    return {en:en, ko:d.teams[en].ko, lg:d.teams[en].league};
+  });
   draw(rows);
+}).catch(function(e){
+  hit.textContent='데이터를 불러오지 못했습니다 ('+e.message+'). teams.json을 직접 내려받아 주세요.';
 });
+
 function draw(list){
-  document.getElementById('tb').innerHTML=list.map(function(r){
-    return '<tr><td>'+r.en+'</td><td class="ko">'+r.ko+'</td>'+
-     '<td><span class="lg" style="background:'+(COLOR[r.lg]||'#00577C')+'">'+(NAME[r.lg]||r.lg)+'</span></td></tr>';
+  tb.innerHTML=list.map(function(r){
+    var c=COLOR[r.lg]||'#00577C', n=NAME[r.lg]||r.lg;
+    return '<tr><td>'+esc(r.en)+'</td><td class="ko">'+esc(r.ko)+'</td>'+
+      '<td><span class="lg" style="background:'+esc(c)+'">'+esc(n)+'</span></td></tr>';
   }).join('');
-  document.getElementById('hit').textContent=list.length+'개 표시';
+  hit.textContent=list.length+'개 표시';
 }
+
 document.getElementById('q').addEventListener('input',function(e){
   var v=e.target.value.trim().toLowerCase();
-  draw(!v?rows:rows.filter(function(r){return r.en.toLowerCase().indexOf(v)>-1||r.ko.indexOf(v)>-1}));
+  draw(!v?rows:rows.filter(function(r){
+    return r.en.toLowerCase().indexOf(v)>-1 || r.ko.indexOf(v)>-1;
+  }));
 });
 </script>
 </body>
