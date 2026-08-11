@@ -1,0 +1,1067 @@
+{
+  "name": "korean-football-team-names",
+  "description": "유럽 5대 리그·UEFA 챔피언스리그 축구팀 영문명 → 한국어명 대조표. football-data.org API가 반환하는 팀 이름을 키로 사용한다.",
+  "homepage": "https://walking-football.com/",
+  "license": "CC0-1.0",
+  "version": "2.0.0",
+  "updated": "2026-08-11",
+  "count": 264,
+  "teams": {
+    "Ajaccio": {
+      "ko": "아작시오",
+      "league": "ligue-1"
+    },
+    "Ajax": {
+      "ko": "아약스",
+      "league": "other"
+    },
+    "Ajax Amsterdam": {
+      "ko": "아약스",
+      "league": "other"
+    },
+    "Alaves": {
+      "ko": "알라베스",
+      "league": "la-liga"
+    },
+    "Albacete": {
+      "ko": "알바세테",
+      "league": "la-liga"
+    },
+    "Almeria": {
+      "ko": "알메리아",
+      "league": "la-liga"
+    },
+    "Amiens": {
+      "ko": "아미앵",
+      "league": "ligue-1"
+    },
+    "Anderlecht": {
+      "ko": "안더레흐트",
+      "league": "other"
+    },
+    "Andorra": {
+      "ko": "안도라",
+      "league": "la-liga"
+    },
+    "Angers": {
+      "ko": "앙제",
+      "league": "ligue-1"
+    },
+    "Annecy": {
+      "ko": "안시",
+      "league": "ligue-1"
+    },
+    "Arsenal": {
+      "ko": "아스날",
+      "league": "premier-league"
+    },
+    "Aston Villa": {
+      "ko": "아스톤 빌라",
+      "league": "premier-league"
+    },
+    "Atalanta": {
+      "ko": "아탈란타",
+      "league": "serie-a"
+    },
+    "Athletic Club": {
+      "ko": "아틀레틱 빌바오",
+      "league": "la-liga"
+    },
+    "Atleti": {
+      "ko": "아틀레티코 마드리드",
+      "league": "la-liga"
+    },
+    "Atletico de Madrid": {
+      "ko": "아틀레티코 마드리드",
+      "league": "other"
+    },
+    "Atletico Madrid": {
+      "ko": "아틀레티코 마드리드",
+      "league": "la-liga"
+    },
+    "Augsburg": {
+      "ko": "아우크스부르크",
+      "league": "bundesliga"
+    },
+    "Auxerre": {
+      "ko": "오세르",
+      "league": "ligue-1"
+    },
+    "AZ": {
+      "ko": "AZ 알크마르",
+      "league": "other"
+    },
+    "Barcelona": {
+      "ko": "FC 바르셀로나",
+      "league": "la-liga"
+    },
+    "Bari": {
+      "ko": "바리",
+      "league": "serie-a"
+    },
+    "Bastia": {
+      "ko": "바스티아",
+      "league": "ligue-1"
+    },
+    "Bayer 04 Leverkusen": {
+      "ko": "레버쿠젠",
+      "league": "bundesliga"
+    },
+    "Bayern Munchen": {
+      "ko": "바이에른 뮌헨",
+      "league": "bundesliga"
+    },
+    "Benfica": {
+      "ko": "벤피카",
+      "league": "other"
+    },
+    "Besiktas": {
+      "ko": "베식타시",
+      "league": "other"
+    },
+    "Birmingham City": {
+      "ko": "버밍엄",
+      "league": "premier-league"
+    },
+    "Blackburn Rovers": {
+      "ko": "블랙번",
+      "league": "premier-league"
+    },
+    "Bochum": {
+      "ko": "보훔",
+      "league": "bundesliga"
+    },
+    "Bodo Glimt": {
+      "ko": "보되/글림트",
+      "league": "other"
+    },
+    "Bologna": {
+      "ko": "볼로냐",
+      "league": "serie-a"
+    },
+    "Borussia Dortmund": {
+      "ko": "도르트문트",
+      "league": "bundesliga"
+    },
+    "Borussia Monchengladbach": {
+      "ko": "묀헨글라트바흐",
+      "league": "bundesliga"
+    },
+    "Bournemouth": {
+      "ko": "본머스",
+      "league": "premier-league"
+    },
+    "Braga": {
+      "ko": "브라가",
+      "league": "other"
+    },
+    "Braunschweig": {
+      "ko": "브라운슈바이크",
+      "league": "bundesliga"
+    },
+    "Brentford": {
+      "ko": "브렌트포드",
+      "league": "premier-league"
+    },
+    "Brescia": {
+      "ko": "브레시아",
+      "league": "serie-a"
+    },
+    "Brest": {
+      "ko": "브레스트",
+      "league": "ligue-1"
+    },
+    "Brestois": {
+      "ko": "브레스트",
+      "league": "ligue-1"
+    },
+    "Brighton Hove Albion": {
+      "ko": "브라이턴",
+      "league": "premier-league"
+    },
+    "Bristol City": {
+      "ko": "브리스톨 시티",
+      "league": "premier-league"
+    },
+    "Burgos": {
+      "ko": "부르고스",
+      "league": "la-liga"
+    },
+    "Burnley": {
+      "ko": "번리",
+      "league": "premier-league"
+    },
+    "Cadiz": {
+      "ko": "카디스",
+      "league": "la-liga"
+    },
+    "Caen": {
+      "ko": "캉",
+      "league": "ligue-1"
+    },
+    "Cagliari": {
+      "ko": "칼리아리",
+      "league": "serie-a"
+    },
+    "Cardiff City": {
+      "ko": "카디프",
+      "league": "premier-league"
+    },
+    "Castellon": {
+      "ko": "카스테욘",
+      "league": "la-liga"
+    },
+    "Catanzaro": {
+      "ko": "카탄차로",
+      "league": "serie-a"
+    },
+    "Celta": {
+      "ko": "셀타 비고",
+      "league": "la-liga"
+    },
+    "Celta Vigo": {
+      "ko": "셀타 비고",
+      "league": "la-liga"
+    },
+    "Celtic": {
+      "ko": "셀틱",
+      "league": "other"
+    },
+    "Cesena": {
+      "ko": "체세나",
+      "league": "serie-a"
+    },
+    "Ceuta": {
+      "ko": "세우타",
+      "league": "la-liga"
+    },
+    "Charlton Athletic": {
+      "ko": "찰턴",
+      "league": "premier-league"
+    },
+    "Chelsea": {
+      "ko": "첼시",
+      "league": "premier-league"
+    },
+    "Clermont": {
+      "ko": "클레르몽",
+      "league": "ligue-1"
+    },
+    "Club Brugge": {
+      "ko": "클럽 브뤼헤",
+      "league": "other"
+    },
+    "Club Brugge KV": {
+      "ko": "클럽 브뤼헤",
+      "league": "other"
+    },
+    "Como": {
+      "ko": "코모",
+      "league": "serie-a"
+    },
+    "Copenhagen": {
+      "ko": "코펜하겐",
+      "league": "other"
+    },
+    "Cordoba": {
+      "ko": "코르도바",
+      "league": "la-liga"
+    },
+    "Cosenza": {
+      "ko": "코센차",
+      "league": "serie-a"
+    },
+    "Coventry City": {
+      "ko": "코번트리",
+      "league": "premier-league"
+    },
+    "Cremonese": {
+      "ko": "크레모네세",
+      "league": "serie-a"
+    },
+    "Crvena Zvezda": {
+      "ko": "츠르베나 즈베즈다",
+      "league": "other"
+    },
+    "Crystal Palace": {
+      "ko": "크리스탈 팰리스",
+      "league": "premier-league"
+    },
+    "Darmstadt": {
+      "ko": "다름슈타트",
+      "league": "bundesliga"
+    },
+    "Deportivo Alaves": {
+      "ko": "알라베스",
+      "league": "la-liga"
+    },
+    "Deportivo Coruna": {
+      "ko": "데포르티보",
+      "league": "la-liga"
+    },
+    "Deportivo La Coruna": {
+      "ko": "데포르티보",
+      "league": "la-liga"
+    },
+    "Derby County": {
+      "ko": "더비 카운티",
+      "league": "premier-league"
+    },
+    "Dinamo Zagreb": {
+      "ko": "디나모 자그레브",
+      "league": "other"
+    },
+    "Dunkerque": {
+      "ko": "됭케르크",
+      "league": "ligue-1"
+    },
+    "Dusseldorf": {
+      "ko": "뒤셀도르프",
+      "league": "bundesliga"
+    },
+    "Eibar": {
+      "ko": "에이바르",
+      "league": "la-liga"
+    },
+    "Eintracht Frankfurt": {
+      "ko": "프랑크푸르트",
+      "league": "bundesliga"
+    },
+    "Elche": {
+      "ko": "엘체",
+      "league": "la-liga"
+    },
+    "Elversberg": {
+      "ko": "엘버스베르크",
+      "league": "bundesliga"
+    },
+    "Empoli": {
+      "ko": "엠폴리",
+      "league": "serie-a"
+    },
+    "Espanyol": {
+      "ko": "에스파뇰",
+      "league": "la-liga"
+    },
+    "Espanyol Barcelona": {
+      "ko": "에스파뇰",
+      "league": "la-liga"
+    },
+    "Everton": {
+      "ko": "에버턴",
+      "league": "premier-league"
+    },
+    "Fenerbahce": {
+      "ko": "페네르바체",
+      "league": "other"
+    },
+    "Ferencvaros": {
+      "ko": "페렌츠바로시",
+      "league": "other"
+    },
+    "Feyenoord Rotterdam": {
+      "ko": "페예노르트",
+      "league": "other"
+    },
+    "Fiorentina": {
+      "ko": "피오렌티나",
+      "league": "serie-a"
+    },
+    "Fortuna Dusseldorf": {
+      "ko": "뒤셀도르프",
+      "league": "bundesliga"
+    },
+    "Freiburg": {
+      "ko": "프라이부르크",
+      "league": "bundesliga"
+    },
+    "Frosinone": {
+      "ko": "프로시노네",
+      "league": "serie-a"
+    },
+    "Fulham": {
+      "ko": "풀럼",
+      "league": "premier-league"
+    },
+    "Galatasaray": {
+      "ko": "갈라타사라이",
+      "league": "other"
+    },
+    "Genk": {
+      "ko": "헹크",
+      "league": "other"
+    },
+    "Genoa": {
+      "ko": "제노아",
+      "league": "serie-a"
+    },
+    "Getafe": {
+      "ko": "헤타페",
+      "league": "la-liga"
+    },
+    "Girona": {
+      "ko": "지로나",
+      "league": "la-liga"
+    },
+    "Granada": {
+      "ko": "그라나다",
+      "league": "la-liga"
+    },
+    "Grenoble": {
+      "ko": "그르노블",
+      "league": "ligue-1"
+    },
+    "Greuther Furth": {
+      "ko": "퓌르트",
+      "league": "bundesliga"
+    },
+    "Guingamp": {
+      "ko": "갱강",
+      "league": "ligue-1"
+    },
+    "Hamburger": {
+      "ko": "함부르크",
+      "league": "bundesliga"
+    },
+    "Hannover": {
+      "ko": "하노버",
+      "league": "bundesliga"
+    },
+    "Heidenheim": {
+      "ko": "하이덴하임",
+      "league": "bundesliga"
+    },
+    "Hellas Verona": {
+      "ko": "베로나",
+      "league": "serie-a"
+    },
+    "Hoffenheim": {
+      "ko": "호펜하임",
+      "league": "bundesliga"
+    },
+    "Holstein Kiel": {
+      "ko": "홀슈타인 킬",
+      "league": "bundesliga"
+    },
+    "Huesca": {
+      "ko": "우에스카",
+      "league": "la-liga"
+    },
+    "Hull City": {
+      "ko": "헐 시티",
+      "league": "premier-league"
+    },
+    "Inter": {
+      "ko": "인터 밀란",
+      "league": "serie-a"
+    },
+    "Internazionale Milano": {
+      "ko": "인터 밀란",
+      "league": "serie-a"
+    },
+    "Ipswich Town": {
+      "ko": "입스위치",
+      "league": "premier-league"
+    },
+    "Juventus": {
+      "ko": "유벤투스",
+      "league": "serie-a"
+    },
+    "Kairat Almaty": {
+      "ko": "카이라트",
+      "league": "other"
+    },
+    "Kaiserslautern": {
+      "ko": "카이저슬라우테른",
+      "league": "bundesliga"
+    },
+    "Karlsruher": {
+      "ko": "카를스루에",
+      "league": "bundesliga"
+    },
+    "Kobenhavn": {
+      "ko": "코펜하겐",
+      "league": "other"
+    },
+    "Koln": {
+      "ko": "쾰른",
+      "league": "bundesliga"
+    },
+    "Las Palmas": {
+      "ko": "라스팔마스",
+      "league": "la-liga"
+    },
+    "Laval": {
+      "ko": "라발",
+      "league": "ligue-1"
+    },
+    "Lazio": {
+      "ko": "라치오",
+      "league": "serie-a"
+    },
+    "Le Havre": {
+      "ko": "르아브르",
+      "league": "ligue-1"
+    },
+    "Le Mans": {
+      "ko": "르망",
+      "league": "ligue-1"
+    },
+    "Lecce": {
+      "ko": "레체",
+      "league": "serie-a"
+    },
+    "Leeds United": {
+      "ko": "리즈 유나이티드",
+      "league": "premier-league"
+    },
+    "Leganes": {
+      "ko": "레가네스",
+      "league": "la-liga"
+    },
+    "Leicester City": {
+      "ko": "레스터 시티",
+      "league": "premier-league"
+    },
+    "Leipzig": {
+      "ko": "RB 라이프치히",
+      "league": "bundesliga"
+    },
+    "Lens": {
+      "ko": "랑스",
+      "league": "ligue-1"
+    },
+    "Levante": {
+      "ko": "레반테",
+      "league": "la-liga"
+    },
+    "Leverkusen": {
+      "ko": "레버쿠젠",
+      "league": "bundesliga"
+    },
+    "Lille": {
+      "ko": "릴",
+      "league": "ligue-1"
+    },
+    "Liverpool": {
+      "ko": "리버풀",
+      "league": "premier-league"
+    },
+    "Lorient": {
+      "ko": "로리앙",
+      "league": "ligue-1"
+    },
+    "Luton Town": {
+      "ko": "루턴",
+      "league": "premier-league"
+    },
+    "Lyonnais": {
+      "ko": "리옹",
+      "league": "ligue-1"
+    },
+    "Magdeburg": {
+      "ko": "마그데부르크",
+      "league": "bundesliga"
+    },
+    "Mainz 05": {
+      "ko": "마인츠",
+      "league": "bundesliga"
+    },
+    "Malaga": {
+      "ko": "말라가",
+      "league": "la-liga"
+    },
+    "Mallorca": {
+      "ko": "마요르카",
+      "league": "la-liga"
+    },
+    "Malmo": {
+      "ko": "말뫼",
+      "league": "other"
+    },
+    "Manchester City": {
+      "ko": "맨체스터 시티",
+      "league": "premier-league"
+    },
+    "Manchester United": {
+      "ko": "맨체스터 유나이티드",
+      "league": "premier-league"
+    },
+    "Marseille": {
+      "ko": "마르세유",
+      "league": "ligue-1"
+    },
+    "Metz": {
+      "ko": "메스",
+      "league": "ligue-1"
+    },
+    "Middlesbrough": {
+      "ko": "미들즈브러",
+      "league": "premier-league"
+    },
+    "Milan": {
+      "ko": "AC 밀란",
+      "league": "serie-a"
+    },
+    "Millwall": {
+      "ko": "밀월",
+      "league": "premier-league"
+    },
+    "Mirandes": {
+      "ko": "미란데스",
+      "league": "la-liga"
+    },
+    "Modena": {
+      "ko": "모데나",
+      "league": "serie-a"
+    },
+    "Monaco": {
+      "ko": "AS 모나코",
+      "league": "ligue-1"
+    },
+    "Montpellier": {
+      "ko": "몽펠리에",
+      "league": "ligue-1"
+    },
+    "Monza": {
+      "ko": "몬차",
+      "league": "serie-a"
+    },
+    "Munster": {
+      "ko": "뮌스터",
+      "league": "bundesliga"
+    },
+    "Nantes": {
+      "ko": "낭트",
+      "league": "ligue-1"
+    },
+    "Napoli": {
+      "ko": "나폴리",
+      "league": "serie-a"
+    },
+    "Newcastle United": {
+      "ko": "뉴캐슬",
+      "league": "premier-league"
+    },
+    "Nice": {
+      "ko": "니스",
+      "league": "ligue-1"
+    },
+    "Norwich City": {
+      "ko": "노리치",
+      "league": "premier-league"
+    },
+    "Nottingham Forest": {
+      "ko": "노팅엄 포레스트",
+      "league": "premier-league"
+    },
+    "Nurnberg": {
+      "ko": "뉘른베르크",
+      "league": "bundesliga"
+    },
+    "Olympiacos": {
+      "ko": "올림피아코스",
+      "league": "other"
+    },
+    "Olympiacos Piraeus": {
+      "ko": "올림피아코스",
+      "league": "other"
+    },
+    "Olympique Lyonnais": {
+      "ko": "리옹",
+      "league": "ligue-1"
+    },
+    "Olympique Marseille": {
+      "ko": "마르세유",
+      "league": "ligue-1"
+    },
+    "Osasuna": {
+      "ko": "오사수나",
+      "league": "la-liga"
+    },
+    "Oxford United": {
+      "ko": "옥스퍼드",
+      "league": "premier-league"
+    },
+    "Paderborn": {
+      "ko": "파더보른",
+      "league": "bundesliga"
+    },
+    "Pafos": {
+      "ko": "파포스",
+      "league": "other"
+    },
+    "Palermo": {
+      "ko": "팔레르모",
+      "league": "serie-a"
+    },
+    "Panathinaikos": {
+      "ko": "파나시나이코스",
+      "league": "other"
+    },
+    "PAOK": {
+      "ko": "PAOK",
+      "league": "other"
+    },
+    "Paris": {
+      "ko": "파리 FC",
+      "league": "ligue-1"
+    },
+    "Paris Saint Germain": {
+      "ko": "PSG",
+      "league": "ligue-1"
+    },
+    "Parma": {
+      "ko": "파르마",
+      "league": "serie-a"
+    },
+    "Pau": {
+      "ko": "포",
+      "league": "ligue-1"
+    },
+    "Pisa": {
+      "ko": "피사",
+      "league": "serie-a"
+    },
+    "Plymouth Argyle": {
+      "ko": "플리머스",
+      "league": "premier-league"
+    },
+    "Porto": {
+      "ko": "FC 포르투",
+      "league": "other"
+    },
+    "Portsmouth": {
+      "ko": "포츠머스",
+      "league": "premier-league"
+    },
+    "Preston North End": {
+      "ko": "프레스턴",
+      "league": "premier-league"
+    },
+    "PSV": {
+      "ko": "PSV 에인트호번",
+      "league": "other"
+    },
+    "Qarabag": {
+      "ko": "카라바흐",
+      "league": "other"
+    },
+    "Qarabag Agdam": {
+      "ko": "카라바흐",
+      "league": "other"
+    },
+    "Queens Park Rangers": {
+      "ko": "QPR",
+      "league": "premier-league"
+    },
+    "Racing Club Santander": {
+      "ko": "라싱 산탄데르",
+      "league": "la-liga"
+    },
+    "Racing Santander": {
+      "ko": "라싱 산탄데르",
+      "league": "la-liga"
+    },
+    "Rangers": {
+      "ko": "레인저스",
+      "league": "other"
+    },
+    "Rayo Vallecano": {
+      "ko": "라요 바예카노",
+      "league": "la-liga"
+    },
+    "Rayo Vallecano Madrid": {
+      "ko": "라요 바예카노",
+      "league": "la-liga"
+    },
+    "RB Leipzig": {
+      "ko": "RB 라이프치히",
+      "league": "bundesliga"
+    },
+    "Real Betis": {
+      "ko": "레알 베티스",
+      "league": "la-liga"
+    },
+    "Real Madrid": {
+      "ko": "레알 마드리드",
+      "league": "la-liga"
+    },
+    "Real Oviedo": {
+      "ko": "레알 오비에도",
+      "league": "la-liga"
+    },
+    "Real Sociedad": {
+      "ko": "레알 소시에다드",
+      "league": "la-liga"
+    },
+    "Real Valladolid": {
+      "ko": "바야돌리드",
+      "league": "la-liga"
+    },
+    "Real Zaragoza": {
+      "ko": "사라고사",
+      "league": "la-liga"
+    },
+    "Red Bull Salzburg": {
+      "ko": "잘츠부르크",
+      "league": "other"
+    },
+    "Red Star": {
+      "ko": "레드스타",
+      "league": "ligue-1"
+    },
+    "Regensburg": {
+      "ko": "레겐스부르크",
+      "league": "bundesliga"
+    },
+    "Reggiana": {
+      "ko": "레자나",
+      "league": "serie-a"
+    },
+    "Reims": {
+      "ko": "랭스",
+      "league": "ligue-1"
+    },
+    "Rennais": {
+      "ko": "렌",
+      "league": "ligue-1"
+    },
+    "Rodez": {
+      "ko": "로데즈",
+      "league": "ligue-1"
+    },
+    "Roma": {
+      "ko": "AS 로마",
+      "league": "serie-a"
+    },
+    "Saint Etienne": {
+      "ko": "생테티엔",
+      "league": "ligue-1"
+    },
+    "Salernitana": {
+      "ko": "살레르니타나",
+      "league": "serie-a"
+    },
+    "Salzburg": {
+      "ko": "잘츠부르크",
+      "league": "other"
+    },
+    "Sampdoria": {
+      "ko": "삼프도리아",
+      "league": "serie-a"
+    },
+    "Santander": {
+      "ko": "라싱 산탄데르",
+      "league": "la-liga"
+    },
+    "Sassuolo": {
+      "ko": "사수올로",
+      "league": "serie-a"
+    },
+    "Schalke": {
+      "ko": "샬케",
+      "league": "bundesliga"
+    },
+    "Schalke 04": {
+      "ko": "샬케",
+      "league": "bundesliga"
+    },
+    "Sevilla": {
+      "ko": "세비야",
+      "league": "la-liga"
+    },
+    "Shakhtar Donetsk": {
+      "ko": "샤흐타르 도네츠크",
+      "league": "other"
+    },
+    "Sheffield United": {
+      "ko": "셰필드 유나이티드",
+      "league": "premier-league"
+    },
+    "Sheffield Wednesday": {
+      "ko": "셰필드 웬즈데이",
+      "league": "premier-league"
+    },
+    "Slavia Praha": {
+      "ko": "슬라비아 프라하",
+      "league": "other"
+    },
+    "Slovan Bratislava": {
+      "ko": "슬로반 브라티슬라바",
+      "league": "other"
+    },
+    "Southampton": {
+      "ko": "사우샘프턴",
+      "league": "premier-league"
+    },
+    "Sparta Praha": {
+      "ko": "스파르타 프라하",
+      "league": "other"
+    },
+    "Spezia": {
+      "ko": "스페치아",
+      "league": "serie-a"
+    },
+    "Sporting Clube de Portugal": {
+      "ko": "스포르팅",
+      "league": "other"
+    },
+    "Sporting CP": {
+      "ko": "스포르팅",
+      "league": "other"
+    },
+    "Sporting Gijon": {
+      "ko": "히혼",
+      "league": "la-liga"
+    },
+    "St Pauli": {
+      "ko": "장크트 파울리",
+      "league": "bundesliga"
+    },
+    "Stade Brestois": {
+      "ko": "브레스트",
+      "league": "ligue-1"
+    },
+    "Stade de Reims": {
+      "ko": "랭스",
+      "league": "ligue-1"
+    },
+    "Stade Rennais": {
+      "ko": "렌",
+      "league": "ligue-1"
+    },
+    "Stoke City": {
+      "ko": "스토크",
+      "league": "premier-league"
+    },
+    "Strasbourg": {
+      "ko": "스트라스부르",
+      "league": "ligue-1"
+    },
+    "Strasbourg Alsace": {
+      "ko": "스트라스부르",
+      "league": "ligue-1"
+    },
+    "Sturm Graz": {
+      "ko": "슈투름 그라츠",
+      "league": "other"
+    },
+    "Stuttgart": {
+      "ko": "슈투트가르트",
+      "league": "bundesliga"
+    },
+    "Sunderland": {
+      "ko": "선덜랜드",
+      "league": "premier-league"
+    },
+    "Swansea City": {
+      "ko": "스완지",
+      "league": "premier-league"
+    },
+    "Tenerife": {
+      "ko": "테네리페",
+      "league": "la-liga"
+    },
+    "Torino": {
+      "ko": "토리노",
+      "league": "serie-a"
+    },
+    "Tottenham Hotspur": {
+      "ko": "토트넘",
+      "league": "premier-league"
+    },
+    "Toulouse": {
+      "ko": "툴루즈",
+      "league": "ligue-1"
+    },
+    "Troyes": {
+      "ko": "트루아",
+      "league": "ligue-1"
+    },
+    "Twente": {
+      "ko": "트벤테",
+      "league": "other"
+    },
+    "Udinese": {
+      "ko": "우디네세",
+      "league": "serie-a"
+    },
+    "Ulm": {
+      "ko": "울름",
+      "league": "bundesliga"
+    },
+    "Union Berlin": {
+      "ko": "우니온 베를린",
+      "league": "bundesliga"
+    },
+    "Union Saint Gilloise": {
+      "ko": "위니옹 생질루아즈",
+      "league": "other"
+    },
+    "Utrecht": {
+      "ko": "위트레흐트",
+      "league": "other"
+    },
+    "Valencia": {
+      "ko": "발렌시아",
+      "league": "la-liga"
+    },
+    "Valladolid": {
+      "ko": "바야돌리드",
+      "league": "la-liga"
+    },
+    "Venezia": {
+      "ko": "베네치아",
+      "league": "serie-a"
+    },
+    "Villarreal": {
+      "ko": "비야레알",
+      "league": "la-liga"
+    },
+    "Vitoria Guimaraes": {
+      "ko": "비토리아 기마랑이스",
+      "league": "other"
+    },
+    "Watford": {
+      "ko": "왓포드",
+      "league": "premier-league"
+    },
+    "Werder Bremen": {
+      "ko": "베르더 브레멘",
+      "league": "bundesliga"
+    },
+    "West Bromwich Albion": {
+      "ko": "웨스트브롬",
+      "league": "premier-league"
+    },
+    "West Ham United": {
+      "ko": "웨스트햄",
+      "league": "premier-league"
+    },
+    "Wolfsburg": {
+      "ko": "볼프스부르크",
+      "league": "bundesliga"
+    },
+    "Wolverhampton Wanderers": {
+      "ko": "울버햄튼",
+      "league": "premier-league"
+    },
+    "Wrexham": {
+      "ko": "렉섬",
+      "league": "premier-league"
+    },
+    "Young Boys": {
+      "ko": "영 보이스",
+      "league": "other"
+    },
+    "Zaragoza": {
+      "ko": "사라고사",
+      "league": "la-liga"
+    },
+    "Zenit": {
+      "ko": "제니트",
+      "league": "other"
+    }
+  }
+}
