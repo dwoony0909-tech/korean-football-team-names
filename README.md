@@ -131,6 +131,8 @@ CSV(`teams.csv`)는 `name_en, name_ko, league, league_en` 네 열입니다.
 경기가 한국시간 몇 시에 열리는지를 누적 집계한 자료입니다.
 [분석 페이지](https://walking-football.com/kickoff-hours/) · [JSON](https://walking-football.com/?wfsk_data=kickoff)
 
+[![Kickoff](https://img.shields.io/endpoint?url=https://walking-football.com/?wfsk_badge=1)](https://walking-football.com/kickoff-hours/)
+
 ## 기여
 
 빠진 팀이나 잘못된 표기를 발견하면 이슈나 PR로 알려주세요.
